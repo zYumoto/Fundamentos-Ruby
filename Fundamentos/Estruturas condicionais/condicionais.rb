@@ -22,7 +22,7 @@ idade = gets.chomp.to_i
 case idade
 when 0..2
     puts"Bebe"
-when 3..12
+when 3..12-
     puts"Crianca"
 when 13..18
     puts"adolescente"
@@ -33,4 +33,4 @@ end
 # estrutura condicional ternario
 
 sexo = "F"
-sexo == "M" ? (puts "Masculino") : (puts "Feminino")
+sexo == "M" ? (puts "Masculino") : (puts "Feminino")-
